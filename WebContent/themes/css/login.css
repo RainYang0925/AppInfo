@@ -1,0 +1,35 @@
+html, body {
+	background-color: #f0f0f0;
+}
+
+#loginForm {
+	text-align:  center height: 320px;
+	/*    z-index: 100;*/
+	border-width: 1px;
+	border-style: solid;
+	left: 50%;
+	margin: -182px 0 0 -265px;
+	position: absolute;
+	top: 50%;
+	width: 560px;
+}
+
+#loginForm {
+	background-color: #4FC1ED;
+}
+
+#loginForm .TxtInput {
+	border-width: 1px;
+	border-style: solid;
+	font-size: 14px;
+	font-weight: bold;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 0;
+	padding-left: 5px;
+	width: 186px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}

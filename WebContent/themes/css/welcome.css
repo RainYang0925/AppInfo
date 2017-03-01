@@ -1,0 +1,142 @@
+html, body {
+	background-color: #f0f0f0;
+}
+
+.north {
+	position: relative;
+}
+
+menus {
+    position: absolute;
+    width: 680px;
+    height: 55px;
+    left: 20%;
+    top: 420%;
+    margin-left: -250px;
+    margin-top: -300px;
+    border: solid 3px #ccc;
+    z-index: 99;
+}
+
+.childMenus {
+    position: absolute;
+    width: 680px;
+    height: 50px;
+    left: 60%;
+    top: 323%;
+    margin-top: -200px;
+}
+
+.menus li {
+	display: inline;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0 20px;
+	margin: 0 5px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px transparent solid;
+	border-radius: 5px;
+	position: relative;
+}
+
+#logout-form {
+	position: absolute;
+    width: 680px;
+    height: 50px;
+    left: 90%;
+    top: 315%;
+    margin-top: -200px;
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+a:link, a:visited {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.selected {
+	background: #4FC1ED;
+}
+
+.menus li:hover {
+	background: #4FC1ED;
+}
+
+a:hover.l-btn {
+	background-position: bottom right;
+	outline: none;
+}
+
+a.l-btn {
+	color: #444;
+	font-size: 18px;
+	display: inline-block;
+	zoom: 1;
+	height: 22px;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	outline: none;
+}
+.panel-body panel-body-noheader panel-body-noborder {
+	width: 100%;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+.panel-default {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+.panel-1 {
+	width: 50%;
+	height: 100%;
+}
+.panel-2 {
+	width: 50%;
+	height: 100%;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+
+}
